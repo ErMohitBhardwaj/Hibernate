@@ -1,0 +1,5 @@
+package Com.BikkadIT.curdOperation.model;
+
+public class StudentAddress {
+
+}

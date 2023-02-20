@@ -1,0 +1,36 @@
+package Com.BikkadIT.Application;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+import Com.BikkadIT.model.Course;
+import Com.BikkadIT.model.Student;
+
+
+public class OneToOneMapping {
+
+	public static void main(String[] args) {
+
+		Configuration cfg=new Configuration();
+		cfg.configure();
+		SessionFactory factory = cfg.buildSessionFactory();
+		
+		Session session = factory.openSession();
+		
+		
+		session.get(Student.class, 1);
+		
+		
+		
+		
+		session.close();
+		
+		
+	}
+
+}

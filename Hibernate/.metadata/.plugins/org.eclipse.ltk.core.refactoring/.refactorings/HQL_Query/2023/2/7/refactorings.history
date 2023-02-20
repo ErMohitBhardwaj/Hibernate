@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Com.BikkadIT.Application.OneToOneMapping&apos; to &apos;HQL_Query&apos;&#x0D;&#x0A;- Original project: &apos;HQL_Query&apos;&#x0D;&#x0A;- Original element: &apos;Com.BikkadIT.Application.OneToOneMapping&apos;&#x0D;&#x0A;- Renamed element: &apos;Com.BikkadIT.Application.HQL_Query&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;OneToOneMapping&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;Com.BikkadIT.Application{OneToOneMapping.java[OneToOneMapping" matchStrategy="1" name="HQL_Query" qualified="false" references="true" similarDeclarations="false" stamp="1676739893392" textual="false" version="1.0"/>
+</session>

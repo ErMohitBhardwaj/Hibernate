@@ -1,0 +1,63 @@
+package Com.BikkadIT.Application;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.hibernate.Query;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+import Com.BikkadIT.model.Course;
+import Com.BikkadIT.model.Student;
+
+public class HQL_Query {
+
+	public static void main(String[] args) {
+		
+		Configuration cfg=new Configuration();
+		cfg.configure();
+		SessionFactory factory = cfg.buildSessionFactory();
+		
+		Session session = factory.openSession();
+		
+		//String query="from Student";
+		String query="from Student where studentId=4";
+		//String query="from Student where name=Mohit"; -----------------//not working
+		
+		Query q=session.createQuery(query);
+		
+		
+		//To fetch a single result we can use uniqueResult();
+		//q.uniqueResult();
+		
+		
+		//TO get all result use list();
+		
+		List <Student> list=q.list();
+		
+		for(Student s:list) {
+			
+			System.out.println(s.getStudentId());
+			
+			System.out.println(s.getName());
+		}
+		
+		
+		/*
+		 
+		 --Manually Providing Criteria--
+ 		 String query="from Student where studentId=:x";
+		 
+		 q.setParameter("x","2");
+		 
+		 */
+		
+		
+		session.close();
+		
+		
+	}
+
+}

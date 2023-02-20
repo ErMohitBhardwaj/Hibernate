@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Com.BikkadIT.Application.OneToOneMapping&apos; to &apos;Cascade&apos;&#x0D;&#x0A;- Original project: &apos;Cascading&apos;&#x0D;&#x0A;- Original element: &apos;Com.BikkadIT.Application.OneToOneMapping&apos;&#x0D;&#x0A;- Renamed element: &apos;Com.BikkadIT.Application.Cascade&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;OneToOneMapping&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;Com.BikkadIT.Application{OneToOneMapping.java[OneToOneMapping" matchStrategy="1" name="Cascade" qualified="false" references="true" similarDeclarations="false" stamp="1676788349724" textual="false" version="1.0"/>
+</session>

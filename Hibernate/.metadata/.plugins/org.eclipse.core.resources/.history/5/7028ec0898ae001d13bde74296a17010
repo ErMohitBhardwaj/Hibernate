@@ -1,0 +1,25 @@
+package Com.BikkadIT.curdOperation;
+
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+import Com.BikkadIT.curdOperation.model.Student;
+
+public class App {
+	public static void main(String[] args) {
+		Configuration cfg = new Configuration();
+		cfg.configure();
+		SessionFactory buildSessionFactory = cfg.buildSessionFactory();
+
+		Student st=new Student();
+		st.setRollNo(1);
+		st.setName("Mohit");
+		st.setCity("Bhiwani");
+		st.setStream("Non-Medical");
+		System.out.println(st);
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,17 @@
+package Com.BikkadIT.curdOperation;
+
+import java.lang.module.Configuration;
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	Configuration cfg=new Configuration;
+    	cfg.configure();
+    	
+    	
+    	
+    	
+    }
+    
+}
